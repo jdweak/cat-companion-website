@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Companion</title>
+    <link rel="stylesheet"  href="style.css" />
+</head>
+
+
+
+<body>
+
+    <div class="header" id = "header">
+        <h1 style="border: 3px; border-style: solid; font-size: 40px; font-family:Cambria, Cochin, Georgia, Times,
+        'Times New Roman', serif">Cat Companion - a safe space to release your
+        stress</h1>
+        <div class = "bruh" id = "bruh"></div>
+        <h3 style = "font-size:20px; margin-left: 10%; margin-right: 10%">This is a quick mindfulness tool to help you ease your worries and stress. Simply tell the cute cat what's been
+        bothering you, and watch it eat up your worries and make them go away :)
+        </h3>
+    </div>
+    </div>
+
+    <div class = "input" id = "input">
+        <input type="text" id="word" name="word" maxlength="20" placeholder = "What's bothering you?" size="20" 
+        style="position:
+        absolute;top: 89%;left : 40%; z-index: 2; padding: 8px">
+        <br>
+            <button id="button1" class="onbuttonclick">Feed the cat!</button>
+            </div>
+
+    <div class="video" id="video">
+        <video id="idleVideo" muted="muted" style="position: absolute; z-index: -2; top: 15;
+        bottom: 0; width: 100%; height: 90%; overflow: hidden;">
+        <source src="cat.mp4" type="video/mp4">
+        </video>
+
+        <video id="eatVideo" hidden="hidden" muted="muted" style="position: absolute; z-index: -1; top: 15;
+        bottom: 0; width: 100%; height: 90%; overflow: hidden;">
+        <source src="brug.mp4" type="video/mp4">
+        </video>
+    </div>
+
+
+
+
+    <div id="spacer" hidden="hidden" style="position: relative; z-index: -10; width: 1px; height: 620px;">
+    </div>
+
+    <mtext id="movingText" hidden="hidden">
+        ""
+    </mtext>  
+
+
+    <script src="index.js">
+
+    </script>
+</body>
+
+</html>
