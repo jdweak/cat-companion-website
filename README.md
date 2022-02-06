@@ -12,4 +12,4 @@ Jonathan Weakliem: Backend JavaScript functionality, HTML & css setup
 
 ---
 
-Website is a combination of HTML, css, and JavaScript. Team did not have any experience in web development before the hackathon. Website was created in ~7 hours. 
+Website is a combination of HTML, css, and JavaScript. Team did not have any experience in web development before the hackathon. 
